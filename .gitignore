@@ -1,0 +1,25 @@
+@"
+# React Native
+node_modules/
+.expo/
+dist/
+
+# Android
+android/app/my-release-key.jks
+android/keystore.properties
+android/local.properties
+android/app/build/
+
+# iOS
+ios/build/
+ios/Pods/
+
+# Environment
+.env
+*.env
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+"@ | Out-File -FilePath .gitignore -Encoding utf8
